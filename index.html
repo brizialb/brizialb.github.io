@@ -2,48 +2,64 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Event invite</title>
         <style>
-            body {background-color: rgb(68, 245, 245);
-                font-family:monospace;
-                font-size: 16px;
+            body { text-align:center;
+                   color: white;
+                   background-color:black;
             }
-            h1 {color: rgb(194, 19, 194);
-                font-family: cursive;
+            #first-heading { font-family:stencil;}
+            #second-heading { font-family:broadway;}
+            #third-heading { font-family:algerian;}
+            #nr {font-size:70px;}
+            #fourth-heading { font-style:italic;}
+            #name { font-size: 60px;
+                margin-top: 10px;
+                font-family:stencil;
             }
-            .blue {font-size:28px;
-                    color: rgb(5, 25, 250);
+            #algerian { font-family:algerian;
+                        border: 4px white dashed;
+                        margin-left:20px;
+                        margin-right:20px;
             }
-            .center {text-align:center;
+            #year { font-size: 50px;
+                    position: relative;
+                    right: 180px;
+                    bottom: 40px;
             }
-            p {background-color:pink;
-               font-weight: bold;
+            #date { font-size:25px;
+                    position: relative;
+                    bottom: 150px;
             }
-            #got {background-color: rgb(255, 185, 64);}
+            #hour { font-size: 50px;
+                    position: relative;
+                    bottom: 270px;
+                    left:180px;
+            }
+            img { position: absolute;
+                  top:600px;
+                  left:200px;
+                  width:180px;
+            }
+            h4 {position:relative;
+                bottom: 70px;
+            }
         </style>
     </head>
     <body>
         
-        <h1>Klara's blog</h1>
-
-        <h3>Contents</h3>
-        <ul>
-            <li><a href="#school"><em>First post!</em></a></li>
-            <li><a href="#winter"><em>Second post!</em></a></li>
-        </ul>
-        
-        <h2 class="blue center" id="school">Back to school</h2>
-        <h6 class="center">Posted on 19/5/2018</h6>
-        
-        <p class="center">I fell down stairs and hurt my butt.</p>
-        
-        &nbsp
-        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Happy.png" alt="happy" width="140">
-        
-        <h2 class="blue center" id="winter">Winter is coming!</h2>
-        <h6 class="center">Posted on 20/10/2018</h6>
-        <p class="center" id="got">I will finish GOT</p>
-        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Cool.png" alt="cool" width="150">
-        
+        <h2 id="first-heading">PLEASE ENJOY US FOR THE</h2>
+        <h1 id="second-heading"><span id="nr">19</span>th</h1>
+        <h2 id="third-heading">BIRTHDAY PARTY</h2>
+        <h3 id="fourth-heading">-----------------------------honoring-----------------------------</h3>
+        <p id="name">KLARA<br>SHAKAJ</p>
+        <div id="algerian">
+        <p  id="year">2019</p>
+        <p  id="date"> May <br> 19th</p>
+        <p  id="hour">7pm</p>
+        </div>
+        <img src="https://www.kasandbox.org/programming-images/space/star.png" alt="star">
+        <h4><a href="https://www.facebook.com/BasilicoPizzeriaElbasan/" target="_blank">Basilico Pizzeria</a></h4>
     </body>
 </html>
+
